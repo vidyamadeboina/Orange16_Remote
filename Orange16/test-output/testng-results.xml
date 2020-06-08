@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<table> <tr >  <img   style="border:1px solid black;"      src="C:\HTML Report\HtmlTemplates\Logo.JPEG"></tr><tr   ><center><font color="red"  size="15" >TC01</font></center></tr><tr bgcolor="#9370DB"> <th width="100px"> <center><font color="white"  size="4" >Steps</font></center><font color="white"  size="4" ></font></center> </th> <th width="450px" ><center><font color="white"  size="4" >Details </font> </center></th> <th width="100px" ><center><font color="white"  size="4" >Status</font></center></th>  <th  width="250px"  ><center><font color="white"  size="4" >Screen Shots</font></center></th> <th width="250px"  ><center><font color="white"  size="4" >Date & Time</font></center></th>  </tr>       ]]>
+    </line>
+    <line>
+      <![CDATA[ <tr bgcolor="#eee"> <th width="100px"> <center>Step&nbsp;1</center> </th> <th width="450px" ><center><b><font color='black'>   Login Page - Click on Sign In</b> </font></center></th> <th width="100px" ><center><img src='file:///C:\HTML Report\HtmlTemplates\passed.ico'    +     "width="30" + height="30"></img></center></th>  <th  width="250px"  ><center><a href=C:/HTML Report/test-output/TempScreenShots/TC01_2020_Jun_08_10_14_53_722_AM/08_Jun_2020 10_15_06_837 AM.png target="popup" onclick="window.open('C:/HTML Report/test-output/TempScreenShots/TC01_2020_Jun_08_10_14_53_722_AM/08_Jun_2020 10_15_06_837 AM.png','popup','width=600,height=600'); return false;"> ScreenShot</a> </center></th> <th width="250px"  ><center>2020_Jun_08_10_15_07_177_AM</center></th>  </tr>      ]]>
+    </line>
+    <line>
+      <![CDATA[ <tr bgcolor="#ddd"> <th width="100px"> <center>Step&nbsp;2</center> </th> <th width="450px" ><center><b><font color='black'>   Login Page - Click on Sign In</b> </font></center></th> <th width="100px" ><center><img src='file:///C:\HTML Report\HtmlTemplates\passed.ico'    +     "width="30" + height="30"></img></center></th>  <th  width="250px"  ><center><a href=C:/HTML Report/test-output/TempScreenShots/TC01_2020_Jun_08_10_14_53_722_AM/08_Jun_2020 10_15_12_405 AM.png target="popup" onclick="window.open('C:/HTML Report/test-output/TempScreenShots/TC01_2020_Jun_08_10_14_53_722_AM/08_Jun_2020 10_15_12_405 AM.png','popup','width=600,height=600'); return false;"> ScreenShot</a> </center></th> <th width="250px"  ><center>2020_Jun_08_10_15_12_726_AM</center></th>  </tr>      ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-06-08T10:14:53 CDT" name="Default suite" finished-at="2020-06-08T10:15:39 CDT" duration-ms="46059">
+    <groups>
+    </groups>
+    <test started-at="2020-06-08T10:14:53 CDT" name="Default test" finished-at="2020-06-08T10:15:39 CDT" duration-ms="46059">
+      <class name="TestCases.TC01_Test">
+        <test-method signature="Test1()[pri:0, instance:TestCases.TC01_Test@58594a11]" started-at="2020-06-08T10:14:53 CDT" name="Test1" finished-at="2020-06-08T10:15:39 CDT" duration-ms="46023" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<table> <tr >  <img   style="border:1px solid black;"      src="C:\HTML Report\HtmlTemplates\Logo.JPEG"></tr><tr   ><center><font color="red"  size="15" >TC01</font></center></tr><tr bgcolor="#9370DB"> <th width="100px"> <center><font color="white"  size="4" >Steps</font></center><font color="white"  size="4" ></font></center> </th> <th width="450px" ><center><font color="white"  size="4" >Details </font> </center></th> <th width="100px" ><center><font color="white"  size="4" >Status</font></center></th>  <th  width="250px"  ><center><font color="white"  size="4" >Screen Shots</font></center></th> <th width="250px"  ><center><font color="white"  size="4" >Date & Time</font></center></th>  </tr>       ]]>
+            </line>
+            <line>
+              <![CDATA[ <tr bgcolor="#eee"> <th width="100px"> <center>Step&nbsp;1</center> </th> <th width="450px" ><center><b><font color='black'>   Login Page - Click on Sign In</b> </font></center></th> <th width="100px" ><center><img src='file:///C:\HTML Report\HtmlTemplates\passed.ico'    +     "width="30" + height="30"></img></center></th>  <th  width="250px"  ><center><a href=C:/HTML Report/test-output/TempScreenShots/TC01_2020_Jun_08_10_14_53_722_AM/08_Jun_2020 10_15_06_837 AM.png target="popup" onclick="window.open('C:/HTML Report/test-output/TempScreenShots/TC01_2020_Jun_08_10_14_53_722_AM/08_Jun_2020 10_15_06_837 AM.png','popup','width=600,height=600'); return false;"> ScreenShot</a> </center></th> <th width="250px"  ><center>2020_Jun_08_10_15_07_177_AM</center></th>  </tr>      ]]>
+            </line>
+            <line>
+              <![CDATA[ <tr bgcolor="#ddd"> <th width="100px"> <center>Step&nbsp;2</center> </th> <th width="450px" ><center><b><font color='black'>   Login Page - Click on Sign In</b> </font></center></th> <th width="100px" ><center><img src='file:///C:\HTML Report\HtmlTemplates\passed.ico'    +     "width="30" + height="30"></img></center></th>  <th  width="250px"  ><center><a href=C:/HTML Report/test-output/TempScreenShots/TC01_2020_Jun_08_10_14_53_722_AM/08_Jun_2020 10_15_12_405 AM.png target="popup" onclick="window.open('C:/HTML Report/test-output/TempScreenShots/TC01_2020_Jun_08_10_14_53_722_AM/08_Jun_2020 10_15_12_405 AM.png','popup','width=600,height=600'); return false;"> ScreenShot</a> </center></th> <th width="250px"  ><center>2020_Jun_08_10_15_12_726_AM</center></th>  </tr>      ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- TestCases.TC01_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

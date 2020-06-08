@@ -1,0 +1,101 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 08 20:29:44 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>24 seconds (24933 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.TC01_Test.Test1()'><b>Test1</b><br>Test class: TestCases.TC01_Test<br/>
+<a href="#Output-586917260" onClick='toggleBox("Output-586917260", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-586917260" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-586917260">
+<table> <tr >  <img   style="border:1px solid black;"      src="C:\HTML Report\HtmlTemplates\Logo.JPEG"></tr><tr   ><center><font color="red"  size="15" >TC01</font></center></tr><tr bgcolor="#9370DB"> <th width="100px"> <center><font color="white"  size="4" >Steps</font></center><font color="white"  size="4" ></font></center> </th> <th width="450px" ><center><font color="white"  size="4" >Details </font> </center></th> <th width="100px" ><center><font color="white"  size="4" >Status</font></center></th>  <th  width="250px"  ><center><font color="white"  size="4" >Screen Shots</font></center></th> <th width="250px"  ><center><font color="white"  size="4" >Date & Time</font></center></th> 	 </tr>       <br/>
+ <tr bgcolor="#eee"> <th width="100px"> <center>Step&nbsp;1</center> </th> <th width="450px" ><center><b><font color='black'>   Login Page - Click on Sign In</b> </font></center></th> <th width="100px" ><center><img src='file:///C:\HTML Report\HtmlTemplates\passed.ico'    +     "width="30" + height="30"></img></center></th>  <th  width="250px"  ><center><a href=C:/HTML Report/test-output/TempScreenShots/TC01_2020_Jun_08_8_29_45_338_PM/08_Jun_2020 8_29_57_644 PM.png target="popup" onclick="window.open('C:/HTML Report/test-output/TempScreenShots/TC01_2020_Jun_08_8_29_45_338_PM/08_Jun_2020 8_29_57_644 PM.png','popup','width=600,height=600'); return false;"> ScreenShot</a> </center></th> <th width="250px"  ><center>2020_Jun_08_8_29_57_991_PM</center></th> 	 </tr>      <br/>
+Step&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color='black'>   no such element: Unable to locate element: {"method":"link text","selector":"Nationalities"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VL2N6EH', ip: '192.168.29.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Annnn\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63374}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b3c48096903a525ea2dafce8e4b5b81b
+*** Element info: {Using=link text, value=Nationalities}</b> </font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=C:/HTML Report/test-output/TempScreenShots/TC01_2020_Jun_08_8_29_45_338_PM/08_Jun_2020 8_30_04_928 PM.png target="popup" onclick="window.open('C:/HTML Report/test-output/TempScreenShots/TC01_2020_Jun_08_8_29_45_338_PM/08_Jun_2020 8_30_04_928 PM.png','popup','width=600,height=600'); return false;"> ScreenShot</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2020_Jun_08_8_30_05_698_PM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='file:///C:\HTML Report\HtmlTemplates\failed.ico'    +     "width="30" + height="30"></img><br><br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>TestCases.TC01_Test@1329eff</td></tr>
+</table><p>
+</body>
+</html>
